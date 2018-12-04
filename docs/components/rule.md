@@ -127,6 +127,8 @@ Flags:
                                  DNS lookups. The port defaults to 9093 or the
                                  SRV record's value. The URL path is used as a
                                  prefix for the regular Alertmanager API path.
+      --alertmanagers.send-timeout=10s  
+                                 Timeout for sending alerts to alertmanager
       --alert.query-url=ALERT.QUERY-URL  
                                  The external Thanos Query URL that would be set
                                  in all alerts 'Source' field
